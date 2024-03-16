@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="jPanel3" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="99" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="logIn1" min="-2" pref="64" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="357" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="logIn1" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Yu Gothic UI Semibold" size="36" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pesticides Guidance"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="logIn1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/pest/management/system/images/back.png"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="logIn1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="372" max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="501" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="358" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="532" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Candara" size="24" style="1"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Pesticide Uses Guidlines and Safety Precautions"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="18" style="0"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Pesticides are chemicals used to control pests such as insects, weeds, and rodents. They can be useful in controlling agricultural and household pests, but they can &#xa;also pose risks to human health and the environment if not used properly.&#xa;&#xa;Here are some steps for using pesticides safely:&#xa;&#xa;              1)Read and follow the label instructions carefully. The label provides information on how to use the pesticide safely, including the appropriate dosage, &#xa;application method, and safety precautions.&#xa;&#xa;               2)Wear protective clothing and equipment. This may include gloves, goggles, a respirator, and clothing that covers your skin.&#xa;&#xa;              3)Keep children and pets away from the area being treated. Ideally, they should be kept away for the duration of the treatment and until the area is safe &#xa;for use.&#xa;&#xa;              4)Use the right amount of pesticide. Using too much can be harmful to the environment and can increase the risk of pesticide residues in food and water.&#xa;&#xa;              5)Store pesticides safely. Pesticides should be stored in a cool, dry, and secure location out of reach of children and pets.&#xa;&#xa;              6)Dispose of pesticides properly. Follow the label instructions for disposal or contact your local hazardous waste disposal facility.&#xa;&#xa;              7)Monitor for side effects. If you experience any symptoms such as headache, dizziness, nausea, or skin irritation, stop using the pesticide immediately &#xa;and seek medical attention if necessary.&#xa;&#xa;              8)Use integrated pest management (IPM) strategies. IPM combines different methods of pest control, such as cultural practices, biological control, and &#xa;chemical control, to reduce the reliance on pesticides and minimize their impact on the environment and human health.&#xa;&#xa; Remember, pesticides are powerful chemicals that can have serious consequences if not used properly. &#xa;Always follow the label instructions and take the necessary safety precautions to protect yourself and others.&#xa;&#xa;How to Use Pesticide&#xa;Using pesticides requires careful preparation and adherence to safety guidelines. Here are the steps to follow when using pesticides:&#xa;&#xa;               1)Identify the pest: Before using a pesticide, you should identify the type of pest you want to control. This will help you choose the appropriate&#xa; pesticide and determine the best application method.&#xa;&#xa;               2)Choose the right pesticide: Select a pesticide that is specifically formulated to control the pest you are targeting. Read the label carefully to ensure &#xa;that the product is safe to use for the intended purpose and follow the instructions for use.&#xa;&#xa;               3)Prepare the area: Clear the area of any people, pets, or other animals that could be exposed to the pesticide. Remove any food, dishes, or utensils&#xa; from the area to prevent contamination. Cover any sensitive plants or surfaces with a protective barrier.&#xa;&#xa;               4)Mix the pesticide: Follow the instructions on the label to mix the pesticide. Wear protective gear, such as gloves and a face mask, and mix the &#xa;pesticide in a well-ventilated area.&#xa;&#xa;               5)Apply the pesticide: Apply the pesticide evenly and accurately using the recommended method, such as spraying or spreading. Avoid over-applying &#xa;the pesticide, which can be wasteful and may increase the risk of contamination.&#xa;&#xa;               6)Clean up: Once the pesticide has been applied, clean up any equipment and dispose of any unused pesticide or packaging according to the label&#xa; instructions. Rinse any surfaces or tools that may have been contaminated with the pesticide.&#xa;&#xa;               7)Wait and monitor: Allow time for the pesticide to take effect, following the recommended waiting period before entering the treated area. &#xa;Monitor the area for any signs of continued pest activity or other issues."/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
